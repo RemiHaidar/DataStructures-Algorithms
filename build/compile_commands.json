@@ -1,0 +1,17 @@
+[
+{
+  "directory": "P:/C++/Data_Structures&Algorithms/build/app",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\source\\main.cpp.obj -c \"P:\\C++\\Data_Structures&Algorithms\\app\\source\\main.cpp\"",
+  "file": "P:/C++/Data_Structures&Algorithms/app/source/main.cpp"
+},
+{
+  "directory": "P:/C++/Data_Structures&Algorithms/build/Algorithms",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/Algorithms.dir/includes_CXX.rsp -g -o CMakeFiles\\Algorithms.dir\\source\\Algorithms.cpp.obj -c \"P:\\C++\\Data_Structures&Algorithms\\Algorithms\\source\\Algorithms.cpp\"",
+  "file": "P:/C++/Data_Structures&Algorithms/Algorithms/source/Algorithms.cpp"
+},
+{
+  "directory": "P:/C++/Data_Structures&Algorithms/build/DataStructures",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/DataStructures.dir/includes_CXX.rsp -g -o CMakeFiles\\DataStructures.dir\\source\\DataStructures.cpp.obj -c \"P:\\C++\\Data_Structures&Algorithms\\DataStructures\\source\\DataStructures.cpp\"",
+  "file": "P:/C++/Data_Structures&Algorithms/DataStructures/source/DataStructures.cpp"
+}
+]

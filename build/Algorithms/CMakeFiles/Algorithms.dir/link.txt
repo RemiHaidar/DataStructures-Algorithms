@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libAlgorithms.a CMakeFiles/Algorithms.dir/source/Algorithms.cpp.obj
+C:\MinGW\bin\ranlib.exe libAlgorithms.a
