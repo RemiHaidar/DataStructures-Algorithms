@@ -13,5 +13,10 @@
   "directory": "P:/C++/Data_Structures&Algorithms/build/DataStructures",
   "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/DataStructures.dir/includes_CXX.rsp -g -o CMakeFiles\\DataStructures.dir\\source\\DataStructures.cpp.obj -c \"P:\\C++\\Data_Structures&Algorithms\\DataStructures\\source\\DataStructures.cpp\"",
   "file": "P:/C++/Data_Structures&Algorithms/DataStructures/source/DataStructures.cpp"
+},
+{
+  "directory": "P:/C++/Data_Structures&Algorithms/build/DataStructures",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/DataStructures.dir/includes_CXX.rsp -g -o CMakeFiles\\DataStructures.dir\\source\\BinaryTree.cpp.obj -c \"P:\\C++\\Data_Structures&Algorithms\\DataStructures\\source\\BinaryTree.cpp\"",
+  "file": "P:/C++/Data_Structures&Algorithms/DataStructures/source/BinaryTree.cpp"
 }
 ]

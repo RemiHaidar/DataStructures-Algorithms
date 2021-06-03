@@ -6,3 +6,11 @@
 
 #IncludeRegexTransform: 
 
+../DataStructures/include/BinaryTree.hpp
+iostream
+-
+
+P:/C++/Data_Structures&Algorithms/DataStructures/source/BinaryTree.cpp
+BinaryTree.hpp
+P:/C++/Data_Structures&Algorithms/DataStructures/source/BinaryTree.hpp
+

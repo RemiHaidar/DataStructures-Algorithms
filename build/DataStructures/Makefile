@@ -143,6 +143,33 @@ DataStructures/fast:
 	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/build
 .PHONY : DataStructures/fast
 
+source/BinaryTree.obj: source/BinaryTree.cpp.obj
+
+.PHONY : source/BinaryTree.obj
+
+# target to build an object file
+source/BinaryTree.cpp.obj:
+	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/BinaryTree.cpp.obj
+.PHONY : source/BinaryTree.cpp.obj
+
+source/BinaryTree.i: source/BinaryTree.cpp.i
+
+.PHONY : source/BinaryTree.i
+
+# target to preprocess a source file
+source/BinaryTree.cpp.i:
+	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/BinaryTree.cpp.i
+.PHONY : source/BinaryTree.cpp.i
+
+source/BinaryTree.s: source/BinaryTree.cpp.s
+
+.PHONY : source/BinaryTree.s
+
+# target to generate assembly for a file
+source/BinaryTree.cpp.s:
+	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/BinaryTree.cpp.s
+.PHONY : source/BinaryTree.cpp.s
+
 source/DataStructures.obj: source/DataStructures.cpp.obj
 
 .PHONY : source/DataStructures.obj
@@ -179,6 +206,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... DataStructures
+	@echo ... source/BinaryTree.obj
+	@echo ... source/BinaryTree.i
+	@echo ... source/BinaryTree.s
 	@echo ... source/DataStructures.obj
 	@echo ... source/DataStructures.i
 	@echo ... source/DataStructures.s

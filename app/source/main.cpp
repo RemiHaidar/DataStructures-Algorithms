@@ -2,7 +2,15 @@
 
 int main()
 {
-    std::cout << "Hello world!" << std::endl;
+    BinaryTree tree1(5);
 
-    std::cin.get();
+    tree1.insert(2);
+    tree1.insert(1);
+    tree1.insert(7);
+    tree1.insert(8);
+    tree1.insert(6);
+    tree1.insert(4);
+    tree1.insert(15);
+
+    std::cin.ignore();
 }
