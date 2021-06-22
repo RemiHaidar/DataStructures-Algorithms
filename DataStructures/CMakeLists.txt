@@ -8,4 +8,5 @@ target_include_directories(
 target_sources(
     DataStructures PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/source/BinaryTree.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/source/HashTable.cpp
 )

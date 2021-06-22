@@ -4,6 +4,7 @@
 app/CMakeFiles/main.dir/source/main.cpp.obj: ../Algorithms/include/Algorithms.hpp
 app/CMakeFiles/main.dir/source/main.cpp.obj: ../DataStructures/include/BinaryTree.hpp
 app/CMakeFiles/main.dir/source/main.cpp.obj: ../DataStructures/include/DataStructures.hpp
+app/CMakeFiles/main.dir/source/main.cpp.obj: ../DataStructures/include/HashTable.hpp
 app/CMakeFiles/main.dir/source/main.cpp.obj: ../app/include/main.hpp
 app/CMakeFiles/main.dir/source/main.cpp.obj: ../app/source/main.cpp
 

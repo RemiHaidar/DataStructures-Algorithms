@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-../DataStructures/include/BinaryTree.hpp
+../DataStructures/include/HashTable.hpp
 iostream
 -
+vector
+-
 
-P:/C++/Data_Structures&Algorithms/DataStructures/source/BinaryTree.cpp
-BinaryTree.hpp
-P:/C++/Data_Structures&Algorithms/DataStructures/source/BinaryTree.hpp
+P:/C++/Data_Structures&Algorithms/DataStructures/source/HashTable.cpp
+HashTable.hpp
+P:/C++/Data_Structures&Algorithms/DataStructures/source/HashTable.hpp
 

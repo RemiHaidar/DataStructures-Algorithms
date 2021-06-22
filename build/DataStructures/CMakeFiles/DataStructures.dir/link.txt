@@ -1,2 +1,2 @@
-C:\MinGW\bin\ar.exe qc libDataStructures.a CMakeFiles/DataStructures.dir/source/DataStructures.cpp.obj CMakeFiles/DataStructures.dir/source/BinaryTree.cpp.obj
+C:\MinGW\bin\ar.exe qc libDataStructures.a CMakeFiles/DataStructures.dir/source/DataStructures.cpp.obj CMakeFiles/DataStructures.dir/source/BinaryTree.cpp.obj CMakeFiles/DataStructures.dir/source/HashTable.cpp.obj
 C:\MinGW\bin\ranlib.exe libDataStructures.a

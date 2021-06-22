@@ -197,6 +197,33 @@ source/DataStructures.cpp.s:
 	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/DataStructures.cpp.s
 .PHONY : source/DataStructures.cpp.s
 
+source/HashTable.obj: source/HashTable.cpp.obj
+
+.PHONY : source/HashTable.obj
+
+# target to build an object file
+source/HashTable.cpp.obj:
+	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/HashTable.cpp.obj
+.PHONY : source/HashTable.cpp.obj
+
+source/HashTable.i: source/HashTable.cpp.i
+
+.PHONY : source/HashTable.i
+
+# target to preprocess a source file
+source/HashTable.cpp.i:
+	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/HashTable.cpp.i
+.PHONY : source/HashTable.cpp.i
+
+source/HashTable.s: source/HashTable.cpp.s
+
+.PHONY : source/HashTable.s
+
+# target to generate assembly for a file
+source/HashTable.cpp.s:
+	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/HashTable.cpp.s
+.PHONY : source/HashTable.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -212,6 +239,9 @@ help:
 	@echo ... source/DataStructures.obj
 	@echo ... source/DataStructures.i
 	@echo ... source/DataStructures.s
+	@echo ... source/HashTable.obj
+	@echo ... source/HashTable.i
+	@echo ... source/HashTable.s
 .PHONY : help
 
 

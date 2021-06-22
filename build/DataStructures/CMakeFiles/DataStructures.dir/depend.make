@@ -6,5 +6,9 @@ DataStructures/CMakeFiles/DataStructures.dir/source/BinaryTree.cpp.obj: ../DataS
 
 DataStructures/CMakeFiles/DataStructures.dir/source/DataStructures.cpp.obj: ../DataStructures/include/BinaryTree.hpp
 DataStructures/CMakeFiles/DataStructures.dir/source/DataStructures.cpp.obj: ../DataStructures/include/DataStructures.hpp
+DataStructures/CMakeFiles/DataStructures.dir/source/DataStructures.cpp.obj: ../DataStructures/include/HashTable.hpp
 DataStructures/CMakeFiles/DataStructures.dir/source/DataStructures.cpp.obj: ../DataStructures/source/DataStructures.cpp
+
+DataStructures/CMakeFiles/DataStructures.dir/source/HashTable.cpp.obj: ../DataStructures/include/HashTable.hpp
+DataStructures/CMakeFiles/DataStructures.dir/source/HashTable.cpp.obj: ../DataStructures/source/HashTable.cpp
 

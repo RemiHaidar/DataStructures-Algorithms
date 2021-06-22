@@ -15,6 +15,14 @@ iostream
 ../DataStructures/include/DataStructures.hpp
 BinaryTree.hpp
 ../DataStructures/include/BinaryTree.hpp
+HashTable.hpp
+../DataStructures/include/HashTable.hpp
+
+../DataStructures/include/HashTable.hpp
+iostream
+-
+vector
+-
 
 ../app/include/main.hpp
 iostream
