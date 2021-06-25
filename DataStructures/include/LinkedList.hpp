@@ -13,6 +13,7 @@ private:
 	void prependUtil(Slot*, int);
 public:
 	LinkedList();
+	~LinkedList();
 	void append(int);
 	void prepend(int);
 	int index(int);

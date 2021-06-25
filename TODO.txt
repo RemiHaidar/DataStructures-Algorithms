@@ -2,5 +2,5 @@
 - Binary Tree : Done
 - Graphs : Not done
 - Stacks : Not done
-- Linked list : Not done
+- Linked list : Done
 - Heap : Not done 

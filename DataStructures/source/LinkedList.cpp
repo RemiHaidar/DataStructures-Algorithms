@@ -71,3 +71,8 @@ int LinkedList::operator[] (unsigned int index)
 	}
 	return -1;
 }
+
+LinkedList::~LinkedList()
+{
+	delete root;
+}

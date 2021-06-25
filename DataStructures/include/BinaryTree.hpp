@@ -15,6 +15,7 @@ private:
     int depthHeight(Node*, int, int);
 public:
     BinaryTree(int);
+    ~BinaryTree();
     void insert(int, Node* node = NULL);
     int height(Node* node = NULL);
     bool find(int value, Node* node = NULL);

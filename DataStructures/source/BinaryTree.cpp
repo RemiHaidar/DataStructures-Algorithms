@@ -176,3 +176,8 @@ int BinaryTree::depth(int value)
 {
     return depthHeight(root, value, 0);
 }
+
+BinaryTree::~BinaryTree()
+{
+    delete root;
+}
