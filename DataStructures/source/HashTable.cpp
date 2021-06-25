@@ -221,7 +221,7 @@ void ChainHashTable::erase(int value)
     else
     {
         for (int i = 0; i < hashTable[index]->chain.size(); i++)
-            if (hashTable[i] == value)
+            if (hashTable[index]->chain[i] == value)
                 hashTable[index]->chain.erase(hashTable[index]->chain.begin() + i);
     }
 }

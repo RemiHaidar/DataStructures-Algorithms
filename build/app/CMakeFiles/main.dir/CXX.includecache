@@ -17,11 +17,17 @@ BinaryTree.hpp
 ../DataStructures/include/BinaryTree.hpp
 HashTable.hpp
 ../DataStructures/include/HashTable.hpp
+LinkedList.hpp
+../DataStructures/include/LinkedList.hpp
 
 ../DataStructures/include/HashTable.hpp
 iostream
 -
 vector
+-
+
+../DataStructures/include/LinkedList.hpp
+iostream
 -
 
 ../app/include/main.hpp

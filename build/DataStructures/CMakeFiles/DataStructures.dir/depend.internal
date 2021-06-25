@@ -8,7 +8,11 @@ DataStructures/CMakeFiles/DataStructures.dir/source/DataStructures.cpp.obj
  ../DataStructures/include/BinaryTree.hpp
  ../DataStructures/include/DataStructures.hpp
  ../DataStructures/include/HashTable.hpp
+ ../DataStructures/include/LinkedList.hpp
  P:/C++/Data_Structures&Algorithms/DataStructures/source/DataStructures.cpp
 DataStructures/CMakeFiles/DataStructures.dir/source/HashTable.cpp.obj
  ../DataStructures/include/HashTable.hpp
  P:/C++/Data_Structures&Algorithms/DataStructures/source/HashTable.cpp
+DataStructures/CMakeFiles/DataStructures.dir/source/LinkedList.cpp.obj
+ ../DataStructures/include/LinkedList.hpp
+ P:/C++/Data_Structures&Algorithms/DataStructures/source/LinkedList.cpp

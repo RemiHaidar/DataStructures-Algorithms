@@ -2,12 +2,13 @@
 
 int main()
 {
-    ChainHashTable table(20);
+    LinkedList list;
 
-    table.insert(5);
-    table.insert(23);
-    table.insert(78);
-    table.insert(1);
-    table.insert(6);
-    table.insert(118);
+    list.append(5);
+    list.append(9);
+    list.append(2);
+    list.append(3);
+    list.append(77);
+
+    std::cout << list[4] << std::endl;
 }

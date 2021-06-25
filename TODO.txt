@@ -1,4 +1,4 @@
-- Hash Table : Not done
+- Hash Table : Done
 - Binary Tree : Done
 - Graphs : Not done
 - Stacks : Not done
