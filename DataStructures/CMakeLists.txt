@@ -10,4 +10,5 @@ target_sources(
     ${CMAKE_CURRENT_SOURCE_DIR}/source/BinaryTree.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/source/HashTable.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/source/LinkedList.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/source/Stack.cpp
 )

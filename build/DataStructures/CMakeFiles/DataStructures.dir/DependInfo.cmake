@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "P:/C++/Data_Structures&Algorithms/DataStructures/source/DataStructures.cpp" "P:/C++/Data_Structures&Algorithms/build/DataStructures/CMakeFiles/DataStructures.dir/source/DataStructures.cpp.obj"
   "P:/C++/Data_Structures&Algorithms/DataStructures/source/HashTable.cpp" "P:/C++/Data_Structures&Algorithms/build/DataStructures/CMakeFiles/DataStructures.dir/source/HashTable.cpp.obj"
   "P:/C++/Data_Structures&Algorithms/DataStructures/source/LinkedList.cpp" "P:/C++/Data_Structures&Algorithms/build/DataStructures/CMakeFiles/DataStructures.dir/source/LinkedList.cpp.obj"
+  "P:/C++/Data_Structures&Algorithms/DataStructures/source/Stack.cpp" "P:/C++/Data_Structures&Algorithms/build/DataStructures/CMakeFiles/DataStructures.dir/source/Stack.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

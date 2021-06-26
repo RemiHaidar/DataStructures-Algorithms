@@ -7,5 +7,6 @@ app/CMakeFiles/main.dir/source/main.cpp.obj
  ../DataStructures/include/DataStructures.hpp
  ../DataStructures/include/HashTable.hpp
  ../DataStructures/include/LinkedList.hpp
+ ../DataStructures/include/Stack.hpp
  ../app/include/main.hpp
  P:/C++/Data_Structures&Algorithms/app/source/main.cpp

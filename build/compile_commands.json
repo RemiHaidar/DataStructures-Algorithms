@@ -28,5 +28,10 @@
   "directory": "P:/C++/Data_Structures&Algorithms/build/DataStructures",
   "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/DataStructures.dir/includes_CXX.rsp -g -o CMakeFiles\\DataStructures.dir\\source\\LinkedList.cpp.obj -c \"P:\\C++\\Data_Structures&Algorithms\\DataStructures\\source\\LinkedList.cpp\"",
   "file": "P:/C++/Data_Structures&Algorithms/DataStructures/source/LinkedList.cpp"
+},
+{
+  "directory": "P:/C++/Data_Structures&Algorithms/build/DataStructures",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/DataStructures.dir/includes_CXX.rsp -g -o CMakeFiles\\DataStructures.dir\\source\\Stack.cpp.obj -c \"P:\\C++\\Data_Structures&Algorithms\\DataStructures\\source\\Stack.cpp\"",
+  "file": "P:/C++/Data_Structures&Algorithms/DataStructures/source/Stack.cpp"
 }
 ]

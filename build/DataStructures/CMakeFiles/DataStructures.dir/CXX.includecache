@@ -17,6 +17,8 @@ HashTable.hpp
 ../DataStructures/include/HashTable.hpp
 LinkedList.hpp
 ../DataStructures/include/LinkedList.hpp
+Stack.hpp
+../DataStructures/include/Stack.hpp
 
 ../DataStructures/include/HashTable.hpp
 iostream
@@ -28,11 +30,17 @@ vector
 iostream
 -
 
+../DataStructures/include/Stack.hpp
+iostream
+-
+stdlib.h
+-
+
 P:/C++/Data_Structures&Algorithms/DataStructures/source/DataStructures.cpp
 DataStructures.hpp
 P:/C++/Data_Structures&Algorithms/DataStructures/source/DataStructures.hpp
 
-P:/C++/Data_Structures&Algorithms/DataStructures/source/LinkedList.cpp
-LinkedList.hpp
-P:/C++/Data_Structures&Algorithms/DataStructures/source/LinkedList.hpp
+P:/C++/Data_Structures&Algorithms/DataStructures/source/Stack.cpp
+Stack.hpp
+P:/C++/Data_Structures&Algorithms/DataStructures/source/Stack.hpp
 

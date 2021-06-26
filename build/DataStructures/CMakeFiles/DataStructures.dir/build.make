@@ -131,12 +131,27 @@ DataStructures/CMakeFiles/DataStructures.dir/source/LinkedList.cpp.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/source/LinkedList.cpp.s"
 	cd /d "P:\C++\Data_Structures&Algorithms\build\DataStructures" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "P:\C++\Data_Structures&Algorithms\DataStructures\source\LinkedList.cpp" -o CMakeFiles\DataStructures.dir\source\LinkedList.cpp.s
 
+DataStructures/CMakeFiles/DataStructures.dir/source/Stack.cpp.obj: DataStructures/CMakeFiles/DataStructures.dir/flags.make
+DataStructures/CMakeFiles/DataStructures.dir/source/Stack.cpp.obj: DataStructures/CMakeFiles/DataStructures.dir/includes_CXX.rsp
+DataStructures/CMakeFiles/DataStructures.dir/source/Stack.cpp.obj: ../DataStructures/source/Stack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="P:\C++\Data_Structures&Algorithms\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object DataStructures/CMakeFiles/DataStructures.dir/source/Stack.cpp.obj"
+	cd /d "P:\C++\Data_Structures&Algorithms\build\DataStructures" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructures.dir\source\Stack.cpp.obj -c "P:\C++\Data_Structures&Algorithms\DataStructures\source\Stack.cpp"
+
+DataStructures/CMakeFiles/DataStructures.dir/source/Stack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/source/Stack.cpp.i"
+	cd /d "P:\C++\Data_Structures&Algorithms\build\DataStructures" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "P:\C++\Data_Structures&Algorithms\DataStructures\source\Stack.cpp" > CMakeFiles\DataStructures.dir\source\Stack.cpp.i
+
+DataStructures/CMakeFiles/DataStructures.dir/source/Stack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/source/Stack.cpp.s"
+	cd /d "P:\C++\Data_Structures&Algorithms\build\DataStructures" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "P:\C++\Data_Structures&Algorithms\DataStructures\source\Stack.cpp" -o CMakeFiles\DataStructures.dir\source\Stack.cpp.s
+
 # Object files for target DataStructures
 DataStructures_OBJECTS = \
 "CMakeFiles/DataStructures.dir/source/DataStructures.cpp.obj" \
 "CMakeFiles/DataStructures.dir/source/BinaryTree.cpp.obj" \
 "CMakeFiles/DataStructures.dir/source/HashTable.cpp.obj" \
-"CMakeFiles/DataStructures.dir/source/LinkedList.cpp.obj"
+"CMakeFiles/DataStructures.dir/source/LinkedList.cpp.obj" \
+"CMakeFiles/DataStructures.dir/source/Stack.cpp.obj"
 
 # External object files for target DataStructures
 DataStructures_EXTERNAL_OBJECTS =
@@ -145,9 +160,10 @@ DataStructures/libDataStructures.a: DataStructures/CMakeFiles/DataStructures.dir
 DataStructures/libDataStructures.a: DataStructures/CMakeFiles/DataStructures.dir/source/BinaryTree.cpp.obj
 DataStructures/libDataStructures.a: DataStructures/CMakeFiles/DataStructures.dir/source/HashTable.cpp.obj
 DataStructures/libDataStructures.a: DataStructures/CMakeFiles/DataStructures.dir/source/LinkedList.cpp.obj
+DataStructures/libDataStructures.a: DataStructures/CMakeFiles/DataStructures.dir/source/Stack.cpp.obj
 DataStructures/libDataStructures.a: DataStructures/CMakeFiles/DataStructures.dir/build.make
 DataStructures/libDataStructures.a: DataStructures/CMakeFiles/DataStructures.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="P:\C++\Data_Structures&Algorithms\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libDataStructures.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="P:\C++\Data_Structures&Algorithms\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libDataStructures.a"
 	cd /d "P:\C++\Data_Structures&Algorithms\build\DataStructures" && $(CMAKE_COMMAND) -P CMakeFiles\DataStructures.dir\cmake_clean_target.cmake
 	cd /d "P:\C++\Data_Structures&Algorithms\build\DataStructures" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DataStructures.dir\link.txt --verbose=$(VERBOSE)
 

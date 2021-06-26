@@ -2,13 +2,10 @@
 
 int main()
 {
-    LinkedList list;
+    Stack stack;
 
-    list.append(5);
-    list.append(9);
-    list.append(2);
-    list.append(3);
-    list.append(77);
-
-    std::cout << list[4] << std::endl;
+    stack.push(5);
+    stack.push(7);
+    
+    stack.pop();
 }

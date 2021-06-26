@@ -251,6 +251,33 @@ source/LinkedList.cpp.s:
 	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/LinkedList.cpp.s
 .PHONY : source/LinkedList.cpp.s
 
+source/Stack.obj: source/Stack.cpp.obj
+
+.PHONY : source/Stack.obj
+
+# target to build an object file
+source/Stack.cpp.obj:
+	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/Stack.cpp.obj
+.PHONY : source/Stack.cpp.obj
+
+source/Stack.i: source/Stack.cpp.i
+
+.PHONY : source/Stack.i
+
+# target to preprocess a source file
+source/Stack.cpp.i:
+	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/Stack.cpp.i
+.PHONY : source/Stack.cpp.i
+
+source/Stack.s: source/Stack.cpp.s
+
+.PHONY : source/Stack.s
+
+# target to generate assembly for a file
+source/Stack.cpp.s:
+	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/Stack.cpp.s
+.PHONY : source/Stack.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -272,6 +299,9 @@ help:
 	@echo ... source/LinkedList.obj
 	@echo ... source/LinkedList.i
 	@echo ... source/LinkedList.s
+	@echo ... source/Stack.obj
+	@echo ... source/Stack.i
+	@echo ... source/Stack.s
 .PHONY : help
 
 
