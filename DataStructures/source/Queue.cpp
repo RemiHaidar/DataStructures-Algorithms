@@ -55,3 +55,8 @@ bool Queue::empty()
 		return true;
 	return false;
 }
+
+Queue::~Queue()
+{
+	delete queue;
+}

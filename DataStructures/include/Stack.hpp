@@ -7,6 +7,7 @@ private:
 	size_t size;
 public:
 	Stack();
+	~Stack();
 	void push(int);
 	void pop();
 	int peek();

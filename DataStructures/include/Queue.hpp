@@ -8,6 +8,7 @@ private:
 	size_t size;
 public:
 	Queue();
+	~Queue();
 	void enqueue(int);
 	void dequeue();
 	int rear();

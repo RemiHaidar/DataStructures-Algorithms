@@ -51,3 +51,8 @@ bool Stack::empty()
 		return true;
 	return false;
 }
+
+Stack::~Stack()
+{
+	delete stack;
+}
