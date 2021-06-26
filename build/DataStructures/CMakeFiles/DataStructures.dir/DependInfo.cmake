@@ -4,11 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "P:/C++/Data_Structures&Algorithms/DataStructures/source/BinaryTree.cpp" "P:/C++/Data_Structures&Algorithms/build/DataStructures/CMakeFiles/DataStructures.dir/source/BinaryTree.cpp.obj"
-  "P:/C++/Data_Structures&Algorithms/DataStructures/source/DataStructures.cpp" "P:/C++/Data_Structures&Algorithms/build/DataStructures/CMakeFiles/DataStructures.dir/source/DataStructures.cpp.obj"
-  "P:/C++/Data_Structures&Algorithms/DataStructures/source/HashTable.cpp" "P:/C++/Data_Structures&Algorithms/build/DataStructures/CMakeFiles/DataStructures.dir/source/HashTable.cpp.obj"
-  "P:/C++/Data_Structures&Algorithms/DataStructures/source/LinkedList.cpp" "P:/C++/Data_Structures&Algorithms/build/DataStructures/CMakeFiles/DataStructures.dir/source/LinkedList.cpp.obj"
-  "P:/C++/Data_Structures&Algorithms/DataStructures/source/Stack.cpp" "P:/C++/Data_Structures&Algorithms/build/DataStructures/CMakeFiles/DataStructures.dir/source/Stack.cpp.obj"
+  "P:/C++/DataStructures-Algorithms/DataStructures/source/DataStructures.cpp" "P:/C++/DataStructures-Algorithms/build/DataStructures/CMakeFiles/DataStructures.dir/source/DataStructures.cpp.obj"
+  "P:/C++/DataStructures-Algorithms/DataStructures/source/Graph.cpp" "P:/C++/DataStructures-Algorithms/build/DataStructures/CMakeFiles/DataStructures.dir/source/Graph.cpp.obj"
+  "P:/C++/DataStructures-Algorithms/DataStructures/source/HashTable.cpp" "P:/C++/DataStructures-Algorithms/build/DataStructures/CMakeFiles/DataStructures.dir/source/HashTable.cpp.obj"
+  "P:/C++/DataStructures-Algorithms/DataStructures/source/LinkedList.cpp" "P:/C++/DataStructures-Algorithms/build/DataStructures/CMakeFiles/DataStructures.dir/source/LinkedList.cpp.obj"
+  "P:/C++/DataStructures-Algorithms/DataStructures/source/Queue.cpp" "P:/C++/DataStructures-Algorithms/build/DataStructures/CMakeFiles/DataStructures.dir/source/Queue.cpp.obj"
+  "P:/C++/DataStructures-Algorithms/DataStructures/source/Stack.cpp" "P:/C++/DataStructures-Algorithms/build/DataStructures/CMakeFiles/DataStructures.dir/source/Stack.cpp.obj"
+  "P:/C++/DataStructures-Algorithms/DataStructures/source/Tree.cpp" "P:/C++/DataStructures-Algorithms/build/DataStructures/CMakeFiles/DataStructures.dir/source/Tree.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

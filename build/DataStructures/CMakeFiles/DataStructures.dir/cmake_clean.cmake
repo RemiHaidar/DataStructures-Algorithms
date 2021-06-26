@@ -1,9 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DataStructures.dir/source/BinaryTree.cpp.obj"
   "CMakeFiles/DataStructures.dir/source/DataStructures.cpp.obj"
+  "CMakeFiles/DataStructures.dir/source/Graph.cpp.obj"
   "CMakeFiles/DataStructures.dir/source/HashTable.cpp.obj"
   "CMakeFiles/DataStructures.dir/source/LinkedList.cpp.obj"
+  "CMakeFiles/DataStructures.dir/source/Queue.cpp.obj"
   "CMakeFiles/DataStructures.dir/source/Stack.cpp.obj"
+  "CMakeFiles/DataStructures.dir/source/Tree.cpp.obj"
   "libDataStructures.a"
   "libDataStructures.pdb"
 )

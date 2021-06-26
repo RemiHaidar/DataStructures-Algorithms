@@ -1,13 +1,13 @@
-#include "BinaryTree.hpp"
+#include "Tree.hpp"
 
-BinaryTree::Node::Node(int value)
+Tree::Node::Node(int value)
 {
     this->value = value;
     left = NULL;
     right = NULL;
 }
 
-int BinaryTree::levelWidth(Node* node, int level)
+int Tree::levelWidth(Node* node, int level)
 {
     if (node == NULL)
         return 0;
@@ -19,7 +19,7 @@ int BinaryTree::levelWidth(Node* node, int level)
         return levelWidth(node->left, level - 1) + levelWidth(node->right, level - 1);
 }
 
-int BinaryTree::depthHeight(Node* node, int value, int level)
+int Tree::depthHeight(Node* node, int value, int level)
 {
     if(node == NULL) 
         return 0;
@@ -37,12 +37,12 @@ int BinaryTree::depthHeight(Node* node, int value, int level)
     return lowerLevel;
 }
 
-BinaryTree::BinaryTree(int root)
+Tree::Tree(int root)
 {
     this->root = new Node(root);
 }
 
-void BinaryTree::insert(int value, Node* node)
+void Tree::insert(int value, Node* node)
 {
     if (node != NULL) {
         if (value < node->value) {
@@ -87,7 +87,7 @@ void BinaryTree::insert(int value, Node* node)
     }
 }
 
-int BinaryTree::height(Node* node)
+int Tree::height(Node* node)
 {
     static bool recursionStarted = true;
     if (recursionStarted)
@@ -105,7 +105,7 @@ int BinaryTree::height(Node* node)
     return h;
 }
 
-bool BinaryTree::find(int value, Node* node)
+bool Tree::find(int value, Node* node)
 {
     static bool recursionStarted = true;
     if (recursionStarted)
@@ -127,7 +127,7 @@ bool BinaryTree::find(int value, Node* node)
     return found;
 }
 
-void BinaryTree::preOrderPrint(Node* node)
+void Tree::preOrderPrint(Node* node)
 {
     static bool recursionStarted = true;
     if (recursionStarted)
@@ -142,7 +142,7 @@ void BinaryTree::preOrderPrint(Node* node)
     }
 }
 
-void BinaryTree::postOrderPrint(Node* node)
+void Tree::postOrderPrint(Node* node)
 {
     static bool recursionStarted = true;
     if (recursionStarted)
@@ -157,7 +157,7 @@ void BinaryTree::postOrderPrint(Node* node)
     }
 }
 
-void BinaryTree::inOrderPrint(Node* node)
+void Tree::inOrderPrint(Node* node)
 {
     static bool recursionStarted = true;
     if (recursionStarted)
@@ -172,12 +172,12 @@ void BinaryTree::inOrderPrint(Node* node)
     }
 }
 
-int BinaryTree::depth(int value)
+int Tree::depth(int value)
 {
     return depthHeight(root, value, 0);
 }
 
-BinaryTree::~BinaryTree()
+Tree::~Tree()
 {
     delete root;
 }

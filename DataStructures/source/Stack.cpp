@@ -5,16 +5,6 @@ Stack::Stack()
 	size = 0;
 }
 
-void Stack::Realloc()
-{
-	/*int* newStack = new int[size + 1];
-	for (int i = 0; i < size; i++)
-		newStack[i] = stack[i];
-	delete[] stack;
-	stack = newStack;
-	size++;*/
-}
-
 void Stack::push(int value)
 {
 	int* newStack = new int[size + 1];

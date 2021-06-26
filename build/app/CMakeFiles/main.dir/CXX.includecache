@@ -8,19 +8,21 @@
 
 ../Algorithms/include/Algorithms.hpp
 
-../DataStructures/include/BinaryTree.hpp
-iostream
--
-
 ../DataStructures/include/DataStructures.hpp
-BinaryTree.hpp
-../DataStructures/include/BinaryTree.hpp
+Tree.hpp
+../DataStructures/include/Tree.hpp
 HashTable.hpp
 ../DataStructures/include/HashTable.hpp
 LinkedList.hpp
 ../DataStructures/include/LinkedList.hpp
 Stack.hpp
 ../DataStructures/include/Stack.hpp
+Queue.hpp
+../DataStructures/include/Queue.hpp
+Graph.hpp
+../DataStructures/include/Graph.hpp
+
+../DataStructures/include/Graph.hpp
 
 ../DataStructures/include/HashTable.hpp
 iostream
@@ -32,10 +34,18 @@ vector
 iostream
 -
 
-../DataStructures/include/Stack.hpp
+../DataStructures/include/Queue.hpp
+stdlib.h
+-
 iostream
 -
+
+../DataStructures/include/Stack.hpp
 stdlib.h
+-
+
+../DataStructures/include/Tree.hpp
+iostream
 -
 
 ../app/include/main.hpp
@@ -46,7 +56,7 @@ Algorithms.hpp
 DataStructures.hpp
 -
 
-P:/C++/Data_Structures&Algorithms/app/source/main.cpp
+P:/C++/DataStructures-Algorithms/app/source/main.cpp
 main.hpp
-P:/C++/Data_Structures&Algorithms/app/source/main.hpp
+P:/C++/DataStructures-Algorithms/app/source/main.hpp
 

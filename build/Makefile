@@ -66,10 +66,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "P:\C++\Data_Structures&Algorithms"
+CMAKE_SOURCE_DIR = P:\C++\DataStructures-Algorithms
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "P:\C++\Data_Structures&Algorithms\build"
+CMAKE_BINARY_DIR = P:\C++\DataStructures-Algorithms\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,9 +98,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "P:\C++\Data_Structures&Algorithms\build\CMakeFiles" "P:\C++\Data_Structures&Algorithms\build\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start P:\C++\DataStructures-Algorithms\build\CMakeFiles P:\C++\DataStructures-Algorithms\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "P:\C++\Data_Structures&Algorithms\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start P:\C++\DataStructures-Algorithms\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

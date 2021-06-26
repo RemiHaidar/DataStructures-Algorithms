@@ -66,10 +66,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "P:\C++\Data_Structures&Algorithms"
+CMAKE_SOURCE_DIR = P:\C++\DataStructures-Algorithms
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "P:\C++\Data_Structures&Algorithms\build"
+CMAKE_BINARY_DIR = P:\C++\DataStructures-Algorithms\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,14 +98,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(CMAKE_COMMAND) -E cmake_progress_start "P:\C++\Data_Structures&Algorithms\build\CMakeFiles" "P:\C++\Data_Structures&Algorithms\build\app\\CMakeFiles\progress.marks"
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "P:\C++\Data_Structures&Algorithms\build\CMakeFiles" 0
+	cd /d P:\C++\DataStructures-Algorithms\build && $(CMAKE_COMMAND) -E cmake_progress_start P:\C++\DataStructures-Algorithms\build\CMakeFiles P:\C++\DataStructures-Algorithms\build\app\\CMakeFiles\progress.marks
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/all
+	$(CMAKE_COMMAND) -E cmake_progress_start P:\C++\DataStructures-Algorithms\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/clean
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/clean
 .PHONY : clean
 
 # The main clean target
@@ -115,22 +115,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/preinstall
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/preinstall
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d P:\C++\DataStructures-Algorithms\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 app/CMakeFiles/main.dir/rule:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/CMakeFiles/main.dir/rule
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/CMakeFiles/main.dir/rule
 .PHONY : app/CMakeFiles/main.dir/rule
 
 # Convenience name for target.
@@ -140,7 +140,7 @@ main: app/CMakeFiles/main.dir/rule
 
 # fast build rule for target.
 main/fast:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\main.dir\build.make app/CMakeFiles/main.dir/build
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\main.dir\build.make app/CMakeFiles/main.dir/build
 .PHONY : main/fast
 
 source/main.obj: source/main.cpp.obj
@@ -149,7 +149,7 @@ source/main.obj: source/main.cpp.obj
 
 # target to build an object file
 source/main.cpp.obj:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\main.dir\build.make app/CMakeFiles/main.dir/source/main.cpp.obj
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\main.dir\build.make app/CMakeFiles/main.dir/source/main.cpp.obj
 .PHONY : source/main.cpp.obj
 
 source/main.i: source/main.cpp.i
@@ -158,7 +158,7 @@ source/main.i: source/main.cpp.i
 
 # target to preprocess a source file
 source/main.cpp.i:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\main.dir\build.make app/CMakeFiles/main.dir/source/main.cpp.i
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\main.dir\build.make app/CMakeFiles/main.dir/source/main.cpp.i
 .PHONY : source/main.cpp.i
 
 source/main.s: source/main.cpp.s
@@ -167,7 +167,7 @@ source/main.s: source/main.cpp.s
 
 # target to generate assembly for a file
 source/main.cpp.s:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\main.dir\build.make app/CMakeFiles/main.dir/source/main.cpp.s
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\main.dir\build.make app/CMakeFiles/main.dir/source/main.cpp.s
 .PHONY : source/main.cpp.s
 
 # Help Target
@@ -193,6 +193,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d P:\C++\DataStructures-Algorithms\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

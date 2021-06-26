@@ -1,6 +1,6 @@
 #include <iostream>
 
-class BinaryTree
+class Tree
 {
 private:
     struct Node
@@ -14,8 +14,8 @@ private:
     int levelWidth(Node*, int);
     int depthHeight(Node*, int, int);
 public:
-    BinaryTree(int);
-    ~BinaryTree();
+    Tree(int);
+    ~Tree();
     void insert(int, Node* node = NULL);
     int height(Node* node = NULL);
     bool find(int value, Node* node = NULL);

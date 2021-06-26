@@ -61,10 +61,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "P:\C++\Data_Structures&Algorithms"
+CMAKE_SOURCE_DIR = P:\C++\DataStructures-Algorithms
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "P:\C++\Data_Structures&Algorithms\build"
+CMAKE_BINARY_DIR = P:\C++\DataStructures-Algorithms\build
 
 # Include any dependencies generated for this target.
 include DataStructures/CMakeFiles/DataStructures.dir/depend.make
@@ -78,94 +78,126 @@ include DataStructures/CMakeFiles/DataStructures.dir/flags.make
 DataStructures/CMakeFiles/DataStructures.dir/source/DataStructures.cpp.obj: DataStructures/CMakeFiles/DataStructures.dir/flags.make
 DataStructures/CMakeFiles/DataStructures.dir/source/DataStructures.cpp.obj: DataStructures/CMakeFiles/DataStructures.dir/includes_CXX.rsp
 DataStructures/CMakeFiles/DataStructures.dir/source/DataStructures.cpp.obj: ../DataStructures/source/DataStructures.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="P:\C++\Data_Structures&Algorithms\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object DataStructures/CMakeFiles/DataStructures.dir/source/DataStructures.cpp.obj"
-	cd /d "P:\C++\Data_Structures&Algorithms\build\DataStructures" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructures.dir\source\DataStructures.cpp.obj -c "P:\C++\Data_Structures&Algorithms\DataStructures\source\DataStructures.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\DataStructures-Algorithms\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object DataStructures/CMakeFiles/DataStructures.dir/source/DataStructures.cpp.obj"
+	cd /d P:\C++\DataStructures-Algorithms\build\DataStructures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructures.dir\source\DataStructures.cpp.obj -c P:\C++\DataStructures-Algorithms\DataStructures\source\DataStructures.cpp
 
 DataStructures/CMakeFiles/DataStructures.dir/source/DataStructures.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/source/DataStructures.cpp.i"
-	cd /d "P:\C++\Data_Structures&Algorithms\build\DataStructures" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "P:\C++\Data_Structures&Algorithms\DataStructures\source\DataStructures.cpp" > CMakeFiles\DataStructures.dir\source\DataStructures.cpp.i
+	cd /d P:\C++\DataStructures-Algorithms\build\DataStructures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\DataStructures-Algorithms\DataStructures\source\DataStructures.cpp > CMakeFiles\DataStructures.dir\source\DataStructures.cpp.i
 
 DataStructures/CMakeFiles/DataStructures.dir/source/DataStructures.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/source/DataStructures.cpp.s"
-	cd /d "P:\C++\Data_Structures&Algorithms\build\DataStructures" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "P:\C++\Data_Structures&Algorithms\DataStructures\source\DataStructures.cpp" -o CMakeFiles\DataStructures.dir\source\DataStructures.cpp.s
+	cd /d P:\C++\DataStructures-Algorithms\build\DataStructures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\DataStructures-Algorithms\DataStructures\source\DataStructures.cpp -o CMakeFiles\DataStructures.dir\source\DataStructures.cpp.s
 
-DataStructures/CMakeFiles/DataStructures.dir/source/BinaryTree.cpp.obj: DataStructures/CMakeFiles/DataStructures.dir/flags.make
-DataStructures/CMakeFiles/DataStructures.dir/source/BinaryTree.cpp.obj: DataStructures/CMakeFiles/DataStructures.dir/includes_CXX.rsp
-DataStructures/CMakeFiles/DataStructures.dir/source/BinaryTree.cpp.obj: ../DataStructures/source/BinaryTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="P:\C++\Data_Structures&Algorithms\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object DataStructures/CMakeFiles/DataStructures.dir/source/BinaryTree.cpp.obj"
-	cd /d "P:\C++\Data_Structures&Algorithms\build\DataStructures" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructures.dir\source\BinaryTree.cpp.obj -c "P:\C++\Data_Structures&Algorithms\DataStructures\source\BinaryTree.cpp"
+DataStructures/CMakeFiles/DataStructures.dir/source/Tree.cpp.obj: DataStructures/CMakeFiles/DataStructures.dir/flags.make
+DataStructures/CMakeFiles/DataStructures.dir/source/Tree.cpp.obj: DataStructures/CMakeFiles/DataStructures.dir/includes_CXX.rsp
+DataStructures/CMakeFiles/DataStructures.dir/source/Tree.cpp.obj: ../DataStructures/source/Tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\DataStructures-Algorithms\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object DataStructures/CMakeFiles/DataStructures.dir/source/Tree.cpp.obj"
+	cd /d P:\C++\DataStructures-Algorithms\build\DataStructures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructures.dir\source\Tree.cpp.obj -c P:\C++\DataStructures-Algorithms\DataStructures\source\Tree.cpp
 
-DataStructures/CMakeFiles/DataStructures.dir/source/BinaryTree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/source/BinaryTree.cpp.i"
-	cd /d "P:\C++\Data_Structures&Algorithms\build\DataStructures" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "P:\C++\Data_Structures&Algorithms\DataStructures\source\BinaryTree.cpp" > CMakeFiles\DataStructures.dir\source\BinaryTree.cpp.i
+DataStructures/CMakeFiles/DataStructures.dir/source/Tree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/source/Tree.cpp.i"
+	cd /d P:\C++\DataStructures-Algorithms\build\DataStructures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\DataStructures-Algorithms\DataStructures\source\Tree.cpp > CMakeFiles\DataStructures.dir\source\Tree.cpp.i
 
-DataStructures/CMakeFiles/DataStructures.dir/source/BinaryTree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/source/BinaryTree.cpp.s"
-	cd /d "P:\C++\Data_Structures&Algorithms\build\DataStructures" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "P:\C++\Data_Structures&Algorithms\DataStructures\source\BinaryTree.cpp" -o CMakeFiles\DataStructures.dir\source\BinaryTree.cpp.s
+DataStructures/CMakeFiles/DataStructures.dir/source/Tree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/source/Tree.cpp.s"
+	cd /d P:\C++\DataStructures-Algorithms\build\DataStructures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\DataStructures-Algorithms\DataStructures\source\Tree.cpp -o CMakeFiles\DataStructures.dir\source\Tree.cpp.s
 
 DataStructures/CMakeFiles/DataStructures.dir/source/HashTable.cpp.obj: DataStructures/CMakeFiles/DataStructures.dir/flags.make
 DataStructures/CMakeFiles/DataStructures.dir/source/HashTable.cpp.obj: DataStructures/CMakeFiles/DataStructures.dir/includes_CXX.rsp
 DataStructures/CMakeFiles/DataStructures.dir/source/HashTable.cpp.obj: ../DataStructures/source/HashTable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="P:\C++\Data_Structures&Algorithms\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object DataStructures/CMakeFiles/DataStructures.dir/source/HashTable.cpp.obj"
-	cd /d "P:\C++\Data_Structures&Algorithms\build\DataStructures" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructures.dir\source\HashTable.cpp.obj -c "P:\C++\Data_Structures&Algorithms\DataStructures\source\HashTable.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\DataStructures-Algorithms\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object DataStructures/CMakeFiles/DataStructures.dir/source/HashTable.cpp.obj"
+	cd /d P:\C++\DataStructures-Algorithms\build\DataStructures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructures.dir\source\HashTable.cpp.obj -c P:\C++\DataStructures-Algorithms\DataStructures\source\HashTable.cpp
 
 DataStructures/CMakeFiles/DataStructures.dir/source/HashTable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/source/HashTable.cpp.i"
-	cd /d "P:\C++\Data_Structures&Algorithms\build\DataStructures" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "P:\C++\Data_Structures&Algorithms\DataStructures\source\HashTable.cpp" > CMakeFiles\DataStructures.dir\source\HashTable.cpp.i
+	cd /d P:\C++\DataStructures-Algorithms\build\DataStructures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\DataStructures-Algorithms\DataStructures\source\HashTable.cpp > CMakeFiles\DataStructures.dir\source\HashTable.cpp.i
 
 DataStructures/CMakeFiles/DataStructures.dir/source/HashTable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/source/HashTable.cpp.s"
-	cd /d "P:\C++\Data_Structures&Algorithms\build\DataStructures" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "P:\C++\Data_Structures&Algorithms\DataStructures\source\HashTable.cpp" -o CMakeFiles\DataStructures.dir\source\HashTable.cpp.s
+	cd /d P:\C++\DataStructures-Algorithms\build\DataStructures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\DataStructures-Algorithms\DataStructures\source\HashTable.cpp -o CMakeFiles\DataStructures.dir\source\HashTable.cpp.s
 
 DataStructures/CMakeFiles/DataStructures.dir/source/LinkedList.cpp.obj: DataStructures/CMakeFiles/DataStructures.dir/flags.make
 DataStructures/CMakeFiles/DataStructures.dir/source/LinkedList.cpp.obj: DataStructures/CMakeFiles/DataStructures.dir/includes_CXX.rsp
 DataStructures/CMakeFiles/DataStructures.dir/source/LinkedList.cpp.obj: ../DataStructures/source/LinkedList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="P:\C++\Data_Structures&Algorithms\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object DataStructures/CMakeFiles/DataStructures.dir/source/LinkedList.cpp.obj"
-	cd /d "P:\C++\Data_Structures&Algorithms\build\DataStructures" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructures.dir\source\LinkedList.cpp.obj -c "P:\C++\Data_Structures&Algorithms\DataStructures\source\LinkedList.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\DataStructures-Algorithms\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object DataStructures/CMakeFiles/DataStructures.dir/source/LinkedList.cpp.obj"
+	cd /d P:\C++\DataStructures-Algorithms\build\DataStructures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructures.dir\source\LinkedList.cpp.obj -c P:\C++\DataStructures-Algorithms\DataStructures\source\LinkedList.cpp
 
 DataStructures/CMakeFiles/DataStructures.dir/source/LinkedList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/source/LinkedList.cpp.i"
-	cd /d "P:\C++\Data_Structures&Algorithms\build\DataStructures" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "P:\C++\Data_Structures&Algorithms\DataStructures\source\LinkedList.cpp" > CMakeFiles\DataStructures.dir\source\LinkedList.cpp.i
+	cd /d P:\C++\DataStructures-Algorithms\build\DataStructures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\DataStructures-Algorithms\DataStructures\source\LinkedList.cpp > CMakeFiles\DataStructures.dir\source\LinkedList.cpp.i
 
 DataStructures/CMakeFiles/DataStructures.dir/source/LinkedList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/source/LinkedList.cpp.s"
-	cd /d "P:\C++\Data_Structures&Algorithms\build\DataStructures" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "P:\C++\Data_Structures&Algorithms\DataStructures\source\LinkedList.cpp" -o CMakeFiles\DataStructures.dir\source\LinkedList.cpp.s
+	cd /d P:\C++\DataStructures-Algorithms\build\DataStructures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\DataStructures-Algorithms\DataStructures\source\LinkedList.cpp -o CMakeFiles\DataStructures.dir\source\LinkedList.cpp.s
 
 DataStructures/CMakeFiles/DataStructures.dir/source/Stack.cpp.obj: DataStructures/CMakeFiles/DataStructures.dir/flags.make
 DataStructures/CMakeFiles/DataStructures.dir/source/Stack.cpp.obj: DataStructures/CMakeFiles/DataStructures.dir/includes_CXX.rsp
 DataStructures/CMakeFiles/DataStructures.dir/source/Stack.cpp.obj: ../DataStructures/source/Stack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="P:\C++\Data_Structures&Algorithms\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object DataStructures/CMakeFiles/DataStructures.dir/source/Stack.cpp.obj"
-	cd /d "P:\C++\Data_Structures&Algorithms\build\DataStructures" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructures.dir\source\Stack.cpp.obj -c "P:\C++\Data_Structures&Algorithms\DataStructures\source\Stack.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\DataStructures-Algorithms\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object DataStructures/CMakeFiles/DataStructures.dir/source/Stack.cpp.obj"
+	cd /d P:\C++\DataStructures-Algorithms\build\DataStructures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructures.dir\source\Stack.cpp.obj -c P:\C++\DataStructures-Algorithms\DataStructures\source\Stack.cpp
 
 DataStructures/CMakeFiles/DataStructures.dir/source/Stack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/source/Stack.cpp.i"
-	cd /d "P:\C++\Data_Structures&Algorithms\build\DataStructures" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "P:\C++\Data_Structures&Algorithms\DataStructures\source\Stack.cpp" > CMakeFiles\DataStructures.dir\source\Stack.cpp.i
+	cd /d P:\C++\DataStructures-Algorithms\build\DataStructures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\DataStructures-Algorithms\DataStructures\source\Stack.cpp > CMakeFiles\DataStructures.dir\source\Stack.cpp.i
 
 DataStructures/CMakeFiles/DataStructures.dir/source/Stack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/source/Stack.cpp.s"
-	cd /d "P:\C++\Data_Structures&Algorithms\build\DataStructures" && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "P:\C++\Data_Structures&Algorithms\DataStructures\source\Stack.cpp" -o CMakeFiles\DataStructures.dir\source\Stack.cpp.s
+	cd /d P:\C++\DataStructures-Algorithms\build\DataStructures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\DataStructures-Algorithms\DataStructures\source\Stack.cpp -o CMakeFiles\DataStructures.dir\source\Stack.cpp.s
+
+DataStructures/CMakeFiles/DataStructures.dir/source/Queue.cpp.obj: DataStructures/CMakeFiles/DataStructures.dir/flags.make
+DataStructures/CMakeFiles/DataStructures.dir/source/Queue.cpp.obj: DataStructures/CMakeFiles/DataStructures.dir/includes_CXX.rsp
+DataStructures/CMakeFiles/DataStructures.dir/source/Queue.cpp.obj: ../DataStructures/source/Queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\DataStructures-Algorithms\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object DataStructures/CMakeFiles/DataStructures.dir/source/Queue.cpp.obj"
+	cd /d P:\C++\DataStructures-Algorithms\build\DataStructures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructures.dir\source\Queue.cpp.obj -c P:\C++\DataStructures-Algorithms\DataStructures\source\Queue.cpp
+
+DataStructures/CMakeFiles/DataStructures.dir/source/Queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/source/Queue.cpp.i"
+	cd /d P:\C++\DataStructures-Algorithms\build\DataStructures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\DataStructures-Algorithms\DataStructures\source\Queue.cpp > CMakeFiles\DataStructures.dir\source\Queue.cpp.i
+
+DataStructures/CMakeFiles/DataStructures.dir/source/Queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/source/Queue.cpp.s"
+	cd /d P:\C++\DataStructures-Algorithms\build\DataStructures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\DataStructures-Algorithms\DataStructures\source\Queue.cpp -o CMakeFiles\DataStructures.dir\source\Queue.cpp.s
+
+DataStructures/CMakeFiles/DataStructures.dir/source/Graph.cpp.obj: DataStructures/CMakeFiles/DataStructures.dir/flags.make
+DataStructures/CMakeFiles/DataStructures.dir/source/Graph.cpp.obj: DataStructures/CMakeFiles/DataStructures.dir/includes_CXX.rsp
+DataStructures/CMakeFiles/DataStructures.dir/source/Graph.cpp.obj: ../DataStructures/source/Graph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\DataStructures-Algorithms\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object DataStructures/CMakeFiles/DataStructures.dir/source/Graph.cpp.obj"
+	cd /d P:\C++\DataStructures-Algorithms\build\DataStructures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructures.dir\source\Graph.cpp.obj -c P:\C++\DataStructures-Algorithms\DataStructures\source\Graph.cpp
+
+DataStructures/CMakeFiles/DataStructures.dir/source/Graph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/source/Graph.cpp.i"
+	cd /d P:\C++\DataStructures-Algorithms\build\DataStructures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\DataStructures-Algorithms\DataStructures\source\Graph.cpp > CMakeFiles\DataStructures.dir\source\Graph.cpp.i
+
+DataStructures/CMakeFiles/DataStructures.dir/source/Graph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/source/Graph.cpp.s"
+	cd /d P:\C++\DataStructures-Algorithms\build\DataStructures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\DataStructures-Algorithms\DataStructures\source\Graph.cpp -o CMakeFiles\DataStructures.dir\source\Graph.cpp.s
 
 # Object files for target DataStructures
 DataStructures_OBJECTS = \
 "CMakeFiles/DataStructures.dir/source/DataStructures.cpp.obj" \
-"CMakeFiles/DataStructures.dir/source/BinaryTree.cpp.obj" \
+"CMakeFiles/DataStructures.dir/source/Tree.cpp.obj" \
 "CMakeFiles/DataStructures.dir/source/HashTable.cpp.obj" \
 "CMakeFiles/DataStructures.dir/source/LinkedList.cpp.obj" \
-"CMakeFiles/DataStructures.dir/source/Stack.cpp.obj"
+"CMakeFiles/DataStructures.dir/source/Stack.cpp.obj" \
+"CMakeFiles/DataStructures.dir/source/Queue.cpp.obj" \
+"CMakeFiles/DataStructures.dir/source/Graph.cpp.obj"
 
 # External object files for target DataStructures
 DataStructures_EXTERNAL_OBJECTS =
 
 DataStructures/libDataStructures.a: DataStructures/CMakeFiles/DataStructures.dir/source/DataStructures.cpp.obj
-DataStructures/libDataStructures.a: DataStructures/CMakeFiles/DataStructures.dir/source/BinaryTree.cpp.obj
+DataStructures/libDataStructures.a: DataStructures/CMakeFiles/DataStructures.dir/source/Tree.cpp.obj
 DataStructures/libDataStructures.a: DataStructures/CMakeFiles/DataStructures.dir/source/HashTable.cpp.obj
 DataStructures/libDataStructures.a: DataStructures/CMakeFiles/DataStructures.dir/source/LinkedList.cpp.obj
 DataStructures/libDataStructures.a: DataStructures/CMakeFiles/DataStructures.dir/source/Stack.cpp.obj
+DataStructures/libDataStructures.a: DataStructures/CMakeFiles/DataStructures.dir/source/Queue.cpp.obj
+DataStructures/libDataStructures.a: DataStructures/CMakeFiles/DataStructures.dir/source/Graph.cpp.obj
 DataStructures/libDataStructures.a: DataStructures/CMakeFiles/DataStructures.dir/build.make
 DataStructures/libDataStructures.a: DataStructures/CMakeFiles/DataStructures.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="P:\C++\Data_Structures&Algorithms\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libDataStructures.a"
-	cd /d "P:\C++\Data_Structures&Algorithms\build\DataStructures" && $(CMAKE_COMMAND) -P CMakeFiles\DataStructures.dir\cmake_clean_target.cmake
-	cd /d "P:\C++\Data_Structures&Algorithms\build\DataStructures" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DataStructures.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=P:\C++\DataStructures-Algorithms\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libDataStructures.a"
+	cd /d P:\C++\DataStructures-Algorithms\build\DataStructures && $(CMAKE_COMMAND) -P CMakeFiles\DataStructures.dir\cmake_clean_target.cmake
+	cd /d P:\C++\DataStructures-Algorithms\build\DataStructures && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DataStructures.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 DataStructures/CMakeFiles/DataStructures.dir/build: DataStructures/libDataStructures.a
@@ -173,10 +205,10 @@ DataStructures/CMakeFiles/DataStructures.dir/build: DataStructures/libDataStruct
 .PHONY : DataStructures/CMakeFiles/DataStructures.dir/build
 
 DataStructures/CMakeFiles/DataStructures.dir/clean:
-	cd /d "P:\C++\Data_Structures&Algorithms\build\DataStructures" && $(CMAKE_COMMAND) -P CMakeFiles\DataStructures.dir\cmake_clean.cmake
+	cd /d P:\C++\DataStructures-Algorithms\build\DataStructures && $(CMAKE_COMMAND) -P CMakeFiles\DataStructures.dir\cmake_clean.cmake
 .PHONY : DataStructures/CMakeFiles/DataStructures.dir/clean
 
 DataStructures/CMakeFiles/DataStructures.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "P:\C++\Data_Structures&Algorithms" "P:\C++\Data_Structures&Algorithms\DataStructures" "P:\C++\Data_Structures&Algorithms\build" "P:\C++\Data_Structures&Algorithms\build\DataStructures" "P:\C++\Data_Structures&Algorithms\build\DataStructures\CMakeFiles\DataStructures.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" P:\C++\DataStructures-Algorithms P:\C++\DataStructures-Algorithms\DataStructures P:\C++\DataStructures-Algorithms\build P:\C++\DataStructures-Algorithms\build\DataStructures P:\C++\DataStructures-Algorithms\build\DataStructures\CMakeFiles\DataStructures.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : DataStructures/CMakeFiles/DataStructures.dir/depend
 

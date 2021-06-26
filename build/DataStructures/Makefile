@@ -66,10 +66,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "P:\C++\Data_Structures&Algorithms"
+CMAKE_SOURCE_DIR = P:\C++\DataStructures-Algorithms
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "P:\C++\Data_Structures&Algorithms\build"
+CMAKE_BINARY_DIR = P:\C++\DataStructures-Algorithms\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,14 +98,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(CMAKE_COMMAND) -E cmake_progress_start "P:\C++\Data_Structures&Algorithms\build\CMakeFiles" "P:\C++\Data_Structures&Algorithms\build\DataStructures\\CMakeFiles\progress.marks"
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructures/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "P:\C++\Data_Structures&Algorithms\build\CMakeFiles" 0
+	cd /d P:\C++\DataStructures-Algorithms\build && $(CMAKE_COMMAND) -E cmake_progress_start P:\C++\DataStructures-Algorithms\build\CMakeFiles P:\C++\DataStructures-Algorithms\build\DataStructures\\CMakeFiles\progress.marks
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructures/all
+	$(CMAKE_COMMAND) -E cmake_progress_start P:\C++\DataStructures-Algorithms\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructures/clean
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructures/clean
 .PHONY : clean
 
 # The main clean target
@@ -115,22 +115,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructures/preinstall
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructures/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructures/preinstall
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructures/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d P:\C++\DataStructures-Algorithms\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 DataStructures/CMakeFiles/DataStructures.dir/rule:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructures/CMakeFiles/DataStructures.dir/rule
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructures/CMakeFiles/DataStructures.dir/rule
 .PHONY : DataStructures/CMakeFiles/DataStructures.dir/rule
 
 # Convenience name for target.
@@ -140,35 +140,8 @@ DataStructures: DataStructures/CMakeFiles/DataStructures.dir/rule
 
 # fast build rule for target.
 DataStructures/fast:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/build
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/build
 .PHONY : DataStructures/fast
-
-source/BinaryTree.obj: source/BinaryTree.cpp.obj
-
-.PHONY : source/BinaryTree.obj
-
-# target to build an object file
-source/BinaryTree.cpp.obj:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/BinaryTree.cpp.obj
-.PHONY : source/BinaryTree.cpp.obj
-
-source/BinaryTree.i: source/BinaryTree.cpp.i
-
-.PHONY : source/BinaryTree.i
-
-# target to preprocess a source file
-source/BinaryTree.cpp.i:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/BinaryTree.cpp.i
-.PHONY : source/BinaryTree.cpp.i
-
-source/BinaryTree.s: source/BinaryTree.cpp.s
-
-.PHONY : source/BinaryTree.s
-
-# target to generate assembly for a file
-source/BinaryTree.cpp.s:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/BinaryTree.cpp.s
-.PHONY : source/BinaryTree.cpp.s
 
 source/DataStructures.obj: source/DataStructures.cpp.obj
 
@@ -176,7 +149,7 @@ source/DataStructures.obj: source/DataStructures.cpp.obj
 
 # target to build an object file
 source/DataStructures.cpp.obj:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/DataStructures.cpp.obj
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/DataStructures.cpp.obj
 .PHONY : source/DataStructures.cpp.obj
 
 source/DataStructures.i: source/DataStructures.cpp.i
@@ -185,7 +158,7 @@ source/DataStructures.i: source/DataStructures.cpp.i
 
 # target to preprocess a source file
 source/DataStructures.cpp.i:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/DataStructures.cpp.i
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/DataStructures.cpp.i
 .PHONY : source/DataStructures.cpp.i
 
 source/DataStructures.s: source/DataStructures.cpp.s
@@ -194,8 +167,35 @@ source/DataStructures.s: source/DataStructures.cpp.s
 
 # target to generate assembly for a file
 source/DataStructures.cpp.s:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/DataStructures.cpp.s
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/DataStructures.cpp.s
 .PHONY : source/DataStructures.cpp.s
+
+source/Graph.obj: source/Graph.cpp.obj
+
+.PHONY : source/Graph.obj
+
+# target to build an object file
+source/Graph.cpp.obj:
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/Graph.cpp.obj
+.PHONY : source/Graph.cpp.obj
+
+source/Graph.i: source/Graph.cpp.i
+
+.PHONY : source/Graph.i
+
+# target to preprocess a source file
+source/Graph.cpp.i:
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/Graph.cpp.i
+.PHONY : source/Graph.cpp.i
+
+source/Graph.s: source/Graph.cpp.s
+
+.PHONY : source/Graph.s
+
+# target to generate assembly for a file
+source/Graph.cpp.s:
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/Graph.cpp.s
+.PHONY : source/Graph.cpp.s
 
 source/HashTable.obj: source/HashTable.cpp.obj
 
@@ -203,7 +203,7 @@ source/HashTable.obj: source/HashTable.cpp.obj
 
 # target to build an object file
 source/HashTable.cpp.obj:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/HashTable.cpp.obj
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/HashTable.cpp.obj
 .PHONY : source/HashTable.cpp.obj
 
 source/HashTable.i: source/HashTable.cpp.i
@@ -212,7 +212,7 @@ source/HashTable.i: source/HashTable.cpp.i
 
 # target to preprocess a source file
 source/HashTable.cpp.i:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/HashTable.cpp.i
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/HashTable.cpp.i
 .PHONY : source/HashTable.cpp.i
 
 source/HashTable.s: source/HashTable.cpp.s
@@ -221,7 +221,7 @@ source/HashTable.s: source/HashTable.cpp.s
 
 # target to generate assembly for a file
 source/HashTable.cpp.s:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/HashTable.cpp.s
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/HashTable.cpp.s
 .PHONY : source/HashTable.cpp.s
 
 source/LinkedList.obj: source/LinkedList.cpp.obj
@@ -230,7 +230,7 @@ source/LinkedList.obj: source/LinkedList.cpp.obj
 
 # target to build an object file
 source/LinkedList.cpp.obj:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/LinkedList.cpp.obj
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/LinkedList.cpp.obj
 .PHONY : source/LinkedList.cpp.obj
 
 source/LinkedList.i: source/LinkedList.cpp.i
@@ -239,7 +239,7 @@ source/LinkedList.i: source/LinkedList.cpp.i
 
 # target to preprocess a source file
 source/LinkedList.cpp.i:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/LinkedList.cpp.i
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/LinkedList.cpp.i
 .PHONY : source/LinkedList.cpp.i
 
 source/LinkedList.s: source/LinkedList.cpp.s
@@ -248,8 +248,35 @@ source/LinkedList.s: source/LinkedList.cpp.s
 
 # target to generate assembly for a file
 source/LinkedList.cpp.s:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/LinkedList.cpp.s
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/LinkedList.cpp.s
 .PHONY : source/LinkedList.cpp.s
+
+source/Queue.obj: source/Queue.cpp.obj
+
+.PHONY : source/Queue.obj
+
+# target to build an object file
+source/Queue.cpp.obj:
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/Queue.cpp.obj
+.PHONY : source/Queue.cpp.obj
+
+source/Queue.i: source/Queue.cpp.i
+
+.PHONY : source/Queue.i
+
+# target to preprocess a source file
+source/Queue.cpp.i:
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/Queue.cpp.i
+.PHONY : source/Queue.cpp.i
+
+source/Queue.s: source/Queue.cpp.s
+
+.PHONY : source/Queue.s
+
+# target to generate assembly for a file
+source/Queue.cpp.s:
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/Queue.cpp.s
+.PHONY : source/Queue.cpp.s
 
 source/Stack.obj: source/Stack.cpp.obj
 
@@ -257,7 +284,7 @@ source/Stack.obj: source/Stack.cpp.obj
 
 # target to build an object file
 source/Stack.cpp.obj:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/Stack.cpp.obj
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/Stack.cpp.obj
 .PHONY : source/Stack.cpp.obj
 
 source/Stack.i: source/Stack.cpp.i
@@ -266,7 +293,7 @@ source/Stack.i: source/Stack.cpp.i
 
 # target to preprocess a source file
 source/Stack.cpp.i:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/Stack.cpp.i
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/Stack.cpp.i
 .PHONY : source/Stack.cpp.i
 
 source/Stack.s: source/Stack.cpp.s
@@ -275,8 +302,35 @@ source/Stack.s: source/Stack.cpp.s
 
 # target to generate assembly for a file
 source/Stack.cpp.s:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/Stack.cpp.s
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/Stack.cpp.s
 .PHONY : source/Stack.cpp.s
+
+source/Tree.obj: source/Tree.cpp.obj
+
+.PHONY : source/Tree.obj
+
+# target to build an object file
+source/Tree.cpp.obj:
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/Tree.cpp.obj
+.PHONY : source/Tree.cpp.obj
+
+source/Tree.i: source/Tree.cpp.i
+
+.PHONY : source/Tree.i
+
+# target to preprocess a source file
+source/Tree.cpp.i:
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/Tree.cpp.i
+.PHONY : source/Tree.cpp.i
+
+source/Tree.s: source/Tree.cpp.s
+
+.PHONY : source/Tree.s
+
+# target to generate assembly for a file
+source/Tree.cpp.s:
+	cd /d P:\C++\DataStructures-Algorithms\build && $(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/source/Tree.cpp.s
+.PHONY : source/Tree.cpp.s
 
 # Help Target
 help:
@@ -287,21 +341,27 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... DataStructures
-	@echo ... source/BinaryTree.obj
-	@echo ... source/BinaryTree.i
-	@echo ... source/BinaryTree.s
 	@echo ... source/DataStructures.obj
 	@echo ... source/DataStructures.i
 	@echo ... source/DataStructures.s
+	@echo ... source/Graph.obj
+	@echo ... source/Graph.i
+	@echo ... source/Graph.s
 	@echo ... source/HashTable.obj
 	@echo ... source/HashTable.i
 	@echo ... source/HashTable.s
 	@echo ... source/LinkedList.obj
 	@echo ... source/LinkedList.i
 	@echo ... source/LinkedList.s
+	@echo ... source/Queue.obj
+	@echo ... source/Queue.i
+	@echo ... source/Queue.s
 	@echo ... source/Stack.obj
 	@echo ... source/Stack.i
 	@echo ... source/Stack.s
+	@echo ... source/Tree.obj
+	@echo ... source/Tree.i
+	@echo ... source/Tree.s
 .PHONY : help
 
 
@@ -313,6 +373,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d "P:\C++\Data_Structures&Algorithms\build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d P:\C++\DataStructures-Algorithms\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

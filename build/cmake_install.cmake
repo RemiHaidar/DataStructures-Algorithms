@@ -1,4 +1,4 @@
-# Install script for directory: P:/C++/Data_Structures&Algorithms
+# Install script for directory: P:/C++/DataStructures-Algorithms
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("P:/C++/Data_Structures&Algorithms/build/app/cmake_install.cmake")
-  include("P:/C++/Data_Structures&Algorithms/build/Algorithms/cmake_install.cmake")
-  include("P:/C++/Data_Structures&Algorithms/build/DataStructures/cmake_install.cmake")
+  include("P:/C++/DataStructures-Algorithms/build/app/cmake_install.cmake")
+  include("P:/C++/DataStructures-Algorithms/build/Algorithms/cmake_install.cmake")
+  include("P:/C++/DataStructures-Algorithms/build/DataStructures/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +53,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "P:/C++/Data_Structures&Algorithms/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "P:/C++/DataStructures-Algorithms/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

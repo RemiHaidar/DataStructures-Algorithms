@@ -3,10 +3,12 @@
 
 app/CMakeFiles/main.dir/source/main.cpp.obj
  ../Algorithms/include/Algorithms.hpp
- ../DataStructures/include/BinaryTree.hpp
  ../DataStructures/include/DataStructures.hpp
+ ../DataStructures/include/Graph.hpp
  ../DataStructures/include/HashTable.hpp
  ../DataStructures/include/LinkedList.hpp
+ ../DataStructures/include/Queue.hpp
  ../DataStructures/include/Stack.hpp
+ ../DataStructures/include/Tree.hpp
  ../app/include/main.hpp
- P:/C++/Data_Structures&Algorithms/app/source/main.cpp
+ P:/C++/DataStructures-Algorithms/app/source/main.cpp

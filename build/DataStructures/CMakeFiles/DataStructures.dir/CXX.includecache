@@ -6,19 +6,21 @@
 
 #IncludeRegexTransform: 
 
-../DataStructures/include/BinaryTree.hpp
-iostream
--
-
 ../DataStructures/include/DataStructures.hpp
-BinaryTree.hpp
-../DataStructures/include/BinaryTree.hpp
+Tree.hpp
+../DataStructures/include/Tree.hpp
 HashTable.hpp
 ../DataStructures/include/HashTable.hpp
 LinkedList.hpp
 ../DataStructures/include/LinkedList.hpp
 Stack.hpp
 ../DataStructures/include/Stack.hpp
+Queue.hpp
+../DataStructures/include/Queue.hpp
+Graph.hpp
+../DataStructures/include/Graph.hpp
+
+../DataStructures/include/Graph.hpp
 
 ../DataStructures/include/HashTable.hpp
 iostream
@@ -30,17 +32,25 @@ vector
 iostream
 -
 
-../DataStructures/include/Stack.hpp
+../DataStructures/include/Queue.hpp
+stdlib.h
+-
 iostream
 -
+
+../DataStructures/include/Stack.hpp
 stdlib.h
 -
 
-P:/C++/Data_Structures&Algorithms/DataStructures/source/DataStructures.cpp
-DataStructures.hpp
-P:/C++/Data_Structures&Algorithms/DataStructures/source/DataStructures.hpp
+../DataStructures/include/Tree.hpp
+iostream
+-
 
-P:/C++/Data_Structures&Algorithms/DataStructures/source/Stack.cpp
-Stack.hpp
-P:/C++/Data_Structures&Algorithms/DataStructures/source/Stack.hpp
+P:/C++/DataStructures-Algorithms/DataStructures/source/DataStructures.cpp
+DataStructures.hpp
+P:/C++/DataStructures-Algorithms/DataStructures/source/DataStructures.hpp
+
+P:/C++/DataStructures-Algorithms/DataStructures/source/Queue.cpp
+Queue.hpp
+P:/C++/DataStructures-Algorithms/DataStructures/source/Queue.hpp
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "P:/C++/Data_Structures&Algorithms/Algorithms/source/Algorithms.cpp" "P:/C++/Data_Structures&Algorithms/build/Algorithms/CMakeFiles/Algorithms.dir/source/Algorithms.cpp.obj"
+  "P:/C++/DataStructures-Algorithms/Algorithms/source/Algorithms.cpp" "P:/C++/DataStructures-Algorithms/build/Algorithms/CMakeFiles/Algorithms.dir/source/Algorithms.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

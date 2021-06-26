@@ -62,10 +62,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "P:\C++\Data_Structures&Algorithms"
+CMAKE_SOURCE_DIR = P:\C++\DataStructures-Algorithms
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "P:\C++\Data_Structures&Algorithms\build"
+CMAKE_BINARY_DIR = P:\C++\DataStructures-Algorithms\build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -153,14 +153,14 @@ app/CMakeFiles/main.dir/all: Algorithms/CMakeFiles/Algorithms.dir/all
 app/CMakeFiles/main.dir/all: DataStructures/CMakeFiles/DataStructures.dir/all
 	$(MAKE) $(MAKESILENT) -f app\CMakeFiles\main.dir\build.make app/CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f app\CMakeFiles\main.dir\build.make app/CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="P:\C++\Data_Structures&Algorithms\build\CMakeFiles" --progress-num=9,10 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=P:\C++\DataStructures-Algorithms\build\CMakeFiles --progress-num=11,12 "Built target main"
 .PHONY : app/CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
 app/CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "P:\C++\Data_Structures&Algorithms\build\CMakeFiles" 10
+	$(CMAKE_COMMAND) -E cmake_progress_start P:\C++\DataStructures-Algorithms\build\CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/CMakeFiles/main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "P:\C++\Data_Structures&Algorithms\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start P:\C++\DataStructures-Algorithms\build\CMakeFiles 0
 .PHONY : app/CMakeFiles/main.dir/rule
 
 # Convenience name for target.
@@ -180,14 +180,14 @@ app/CMakeFiles/main.dir/clean:
 Algorithms/CMakeFiles/Algorithms.dir/all:
 	$(MAKE) $(MAKESILENT) -f Algorithms\CMakeFiles\Algorithms.dir\build.make Algorithms/CMakeFiles/Algorithms.dir/depend
 	$(MAKE) $(MAKESILENT) -f Algorithms\CMakeFiles\Algorithms.dir\build.make Algorithms/CMakeFiles/Algorithms.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="P:\C++\Data_Structures&Algorithms\build\CMakeFiles" --progress-num=1,2 "Built target Algorithms"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=P:\C++\DataStructures-Algorithms\build\CMakeFiles --progress-num=1,2 "Built target Algorithms"
 .PHONY : Algorithms/CMakeFiles/Algorithms.dir/all
 
 # Build rule for subdir invocation for target.
 Algorithms/CMakeFiles/Algorithms.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "P:\C++\Data_Structures&Algorithms\build\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start P:\C++\DataStructures-Algorithms\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Algorithms/CMakeFiles/Algorithms.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "P:\C++\Data_Structures&Algorithms\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start P:\C++\DataStructures-Algorithms\build\CMakeFiles 0
 .PHONY : Algorithms/CMakeFiles/Algorithms.dir/rule
 
 # Convenience name for target.
@@ -207,14 +207,14 @@ Algorithms/CMakeFiles/Algorithms.dir/clean:
 DataStructures/CMakeFiles/DataStructures.dir/all:
 	$(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/depend
 	$(MAKE) $(MAKESILENT) -f DataStructures\CMakeFiles\DataStructures.dir\build.make DataStructures/CMakeFiles/DataStructures.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="P:\C++\Data_Structures&Algorithms\build\CMakeFiles" --progress-num=3,4,5,6,7,8 "Built target DataStructures"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=P:\C++\DataStructures-Algorithms\build\CMakeFiles --progress-num=3,4,5,6,7,8,9,10 "Built target DataStructures"
 .PHONY : DataStructures/CMakeFiles/DataStructures.dir/all
 
 # Build rule for subdir invocation for target.
 DataStructures/CMakeFiles/DataStructures.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "P:\C++\Data_Structures&Algorithms\build\CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start P:\C++\DataStructures-Algorithms\build\CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DataStructures/CMakeFiles/DataStructures.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "P:\C++\Data_Structures&Algorithms\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start P:\C++\DataStructures-Algorithms\build\CMakeFiles 0
 .PHONY : DataStructures/CMakeFiles/DataStructures.dir/rule
 
 # Convenience name for target.
